@@ -70,11 +70,48 @@
             color: rgb(92, 65, 65);
             background-color: rgb(204, 132, 132);
         }
+        .navbar{
+            background-color: rgb(221, 40, 40);
+            border-radius: 10px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 13px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(14, 12, 12)
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius:10px;
+            padding:3px;
+            float:right;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
 
     </style>
 </head>
 <body>
     <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="Search" id="search" placeholder="SEARCH THIS WEBSITE">
+                </div>
+            </ul>
+        </nav>
         <h1> Welcome to my store</h1>
         <div id="fruits" class="items">
             <h3>FRUITS</h3>
