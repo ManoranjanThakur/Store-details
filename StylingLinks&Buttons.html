@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        
+        body{
+            font-family: cursive;
+            
+        }
+        .container{
+            width:900px;
+            border: 5px solid red;
+            background-color: sandybrown;
+
+        }
+        .items{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding:12px 3px;
+            background-color: rgb(204, 132, 132);
+        }
+        #fruits{
+            float:left;
+            width:48%;
+            height:1.785in;
+            
+        }
+        #computer{
+            float:right;
+            width:48%;
+        }
+        #stationary{
+            clear:left;
+            clear:right;
+
+        }
+        p,h3{
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+        h1{
+            margin:auto;
+            width:455px;
+        }
+        /* We have added this */
+        .btn{
+            margin-left: 5px;
+            margin-bottom: 5px;
+            height:24px;
+            background-color: crimson;
+            padding: 3px;
+            border: none;
+            cursor:pointer;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+        /* We have added this */
+        a{  
+            
+            text-decoration: none;
+            color: black;
+        }
+        /* We have added this */
+        a:hover{
+            color: rgb(92, 65, 65);
+            background-color: rgb(204, 132, 132);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Welcome to my store</h1>
+        <div id="fruits" class="items">
+            <h3>FRUITS</h3>
+            <p id="fruitspara" class="para">All types of fruits are avialable ! We have mangoes , apples , bananas and many more at the cheapest rates.</p>
+        </div>
+        <div id="computer" class="items">
+            <h3>COMPUTER</h3>
+            <p id="computerpara" class="para">We have MICROSOFT LAPTOPS AND COMPUTERS , MAC BOOKS, AIR BOOKS, MSI AND MANY MORE , We are having other parts of laptop and computers too. Parts like RAM , SSD ,HDD are here at the chepest prices.</p>
+        </div>
+        <div id="stationary" class="items">
+            <h3>STATIONARY</h3>
+            <p id="stationarypara" class="para">We have all kinds of stationary items , we are having notebooks, books, pencils , pens and bags too, we can give books on rent on the cheapest prices. </p>
+        </div>
+        <!-- We have added this -->
+        <a href="https://github.com/ManoranjanThakur" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>
